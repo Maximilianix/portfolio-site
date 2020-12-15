@@ -1,0 +1,13 @@
+@import "../../styles/base/settings";
+footer {
+  background-color: $black;
+  color: $white;
+  border-radius: 8px;
+  padding: 12px;
+  box-shadow: $box-shadow;
+  display: flex;
+  justify-content: space-between;
+  @media (max-width: 767px) {
+    flex-direction: column;
+  }
+}

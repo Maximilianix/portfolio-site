@@ -1,0 +1,23 @@
+.contact {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-column-gap: 2rem;
+  grid-template-areas:
+    "box1 box2"
+    "box3 box3";
+  @media (max-width: 1024px) {
+    grid-template-areas:
+      "box1 box1"
+      "box2 box2"
+      "box3 box3";
+  }
+  .contactForm {
+    grid-area: box1;
+  }
+  .contactInfo {
+    grid-area: box2;
+  }
+  .contactMap {
+    grid-area: box3;
+  }
+}
