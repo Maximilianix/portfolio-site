@@ -1,2 +1,0 @@
-(this["webpackJsonpmy-portfolio"]=this["webpackJsonpmy-portfolio"]||[]).push([[14],{105:function(t,e,o){"use strict";o.r(e);var s=o(1),c=o(2),n=o.n(c),i=o(10);e.default=function(){return Object(s.jsxs)(n.a.Fragment,{children:[Object(s.jsx)("h1",{children:"404 This page does not exist"}),Object(s.jsx)("br",{}),Object(s.jsx)(i.b,{to:"/",children:"Go Back Home"})]})}}}]);
-//# sourceMappingURL=14.99dab1eb.chunk.js.map
