@@ -5,7 +5,7 @@ import AppRouter from './router/AppRouter';
 const App = () => {
  
   return (
-    <BrowserRouter>
+    <BrowserRouter basename={process.env.PUBLIC_URL}>
       <AppRouter />
     </BrowserRouter>
   );

@@ -1,4 +1,6 @@
-serve -s build
+<!-- serve -s build - local server from build -->
+
+1. npm run deploy - building and deploying
 
 # Getting Started with Create React App
 
