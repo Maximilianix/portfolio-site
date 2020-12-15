@@ -1,6 +1,5 @@
 import React from 'react';
 import GoogleMapReact from 'google-map-react';
-
 const AnyReactComponent = ({ text }) => <div>{text}</div>;
  
 class Googlemap extends React.Component {
@@ -19,7 +18,7 @@ class Googlemap extends React.Component {
           <h2>Contact Map</h2>
           <div style={{ height: '400px', width: '100%' }}>
             <GoogleMapReact
-              bootstrapURLKeys={{ key: 'AIzaSyAMqFwLGCxxumhPou3Ms2tctzSnJPIj64k' }}
+              bootstrapURLKeys={{ key: process.env.REACT_APP_GOOGLE_API_KEY }}
               defaultCenter={this.props.center}
               defaultZoom={this.props.zoom}
             >
