@@ -12,6 +12,9 @@ const StyledFooter = styled.footer`
     @media (max-width: 767px) {
         flex-direction: column;
     }
+    h4{
+        font-weight:500;
+    }
 `
 
 const Footer = () => (

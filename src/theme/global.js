@@ -75,7 +75,7 @@ button:disabled {
     padding: 15px 0 0 3px;
     margin-bottom: 15px;
     z-index: 1;
-    font-weight:500;
+    font-weight:700;
     &:after {
       content: "";
       display: block;
@@ -87,6 +87,9 @@ button:disabled {
       z-index: -1;
       background-color: ${({ theme }) => theme.lightbaseColor};
     }
+  }
+  h3{
+    font-weight:500;
   }
 }
 .styled-list {
@@ -126,7 +129,6 @@ button:disabled {
     }
     h3 {
       color: ${({ theme }) => theme.black};
-      font-weight:500;
     }
     svg {
       width: 50px;

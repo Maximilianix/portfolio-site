@@ -24,7 +24,7 @@ const StyledAside = styled.aside`
       padding: 12px;
       align-self: start;
       .name {
-        font-weight: bold;
+        font-weight: 500;
         text-transform: uppercase;
       }
       .job {

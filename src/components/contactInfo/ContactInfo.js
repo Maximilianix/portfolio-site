@@ -6,7 +6,7 @@ ul {
     margin: 2rem 0 5rem 0;
     line-height: 2rem;
     span {
-      font-weight: bold;
+      font-weight: 500;
     }
   }
 `

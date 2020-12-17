@@ -110,7 +110,6 @@ const StyledHeader = styled.header`
     }
     ul {
       text-transform: uppercase;
-      font-weight: 600;
       display: flex;
       li {
         display: flex;
