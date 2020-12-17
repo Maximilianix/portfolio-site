@@ -1,1 +1,0 @@
-{"version":3,"sources":["webpack://src/components/routes/home/_homepage.scss"],"names":[],"mappings":"AAAA,QAEI,aAAc","file":"9.28c2a8b0.chunk.css","sourcesContent":[".home {\r\n  p {\r\n    margin: 1rem 0;\r\n  }\r\n}\r\n"]}

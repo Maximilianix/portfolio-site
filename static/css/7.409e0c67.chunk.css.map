@@ -1,1 +1,0 @@
-{"version":3,"sources":["webpack://src/components/contactInfo/_contactInfo.scss"],"names":[],"mappings":"AAAA,gBAEI,kBAAqB,CACrB,gBAAiB,CAHrB,qBAKM,eAAiB","file":"7.409e0c67.chunk.css","sourcesContent":[".contactInfo {\r\n  ul {\r\n    margin: 2rem 0 5rem 0;\r\n    line-height: 2rem;\r\n    span {\r\n      font-weight: bold;\r\n    }\r\n  }\r\n}\r\n"]}
