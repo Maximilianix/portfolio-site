@@ -1,10 +1,48 @@
 import React from 'react';
 import Button from '../button/Button';
-import profileImage from '../../assets/images/profile-image.webp';
+import profileImage from '../../assets/images/profile.webp';
 import cv from '../../assets/files/cv.pdf';
-import './_sideBar.scss';
-import '../../styles/components/_styledlist.scss';
-import { FaDownload,FaCode } from 'react-icons/fa';
+import styled from 'styled-components';
+import { FaDownload, FaCode } from 'react-icons/fa';
+
+const StyledAside = styled.aside`
+ background-color: ${({ theme }) => theme.white};;
+  border-radius: 8px;
+  box-shadow: ${({ theme }) => theme.boxShadow};;
+  .profile {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    .styled-list {
+      top: -30px;
+      font-size: 14px;
+      h3 {
+        margin-right: 5px;
+      }
+    }
+    .profile-name {
+      padding: 12px;
+      align-self: start;
+      .name {
+        font-weight: bold;
+        text-transform: uppercase;
+      }
+      .job {
+        color: ${({ theme }) => theme.gray};;
+      }
+    }
+    figure {
+      clip-path: polygon(0 9%, 100% 0, 100% 94%, 0% 100%);
+      img {
+        width: 100%;
+        vertical-align: middle;
+      }
+    }
+    .downloadCv {
+      margin-bottom: 2rem;
+    }
+  }
+`
 
 const SideBar = () => {
 
@@ -22,7 +60,7 @@ const SideBar = () => {
     }
 
     return (
-        <aside>
+        <StyledAside>
             <div className="profile">
                 <div className="profile-name">
                     <span className="name">Maxim Reksha</span><br />
@@ -45,7 +83,7 @@ const SideBar = () => {
                     handleBtnClick={downloadCv}
                 />
             </div>
-        </aside>
+        </StyledAside>
     );
 }
 

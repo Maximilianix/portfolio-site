@@ -13,3 +13,6 @@ export const sass = require('./codeIcons/sass.png').default;
 export const bootstrap = require('./codeIcons/bootstrap.png').default;
 export const gulp = require('./codeIcons/gulp.png').default;
 export const wordpress = require('./codeIcons/wordpress.png').default;
+
+export const moon = require('./themeIcons/half-moon.svg').default;
+export const sun = require('./themeIcons/sun.svg').default;

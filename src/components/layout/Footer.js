@@ -1,11 +1,24 @@
 import React from 'react';
-import './_footer.scss';
+import styled from 'styled-components';
+
+const StyledFooter = styled.footer`
+    background-color: ${({ theme }) => theme.white};
+    color:  ${({ theme }) => theme.black};
+    border-radius: 8px;
+    padding: 12px;
+    box-shadow:  ${({ theme }) => theme.boxShadow};
+    display: flex;
+    justify-content: space-between;
+    @media (max-width: 767px) {
+        flex-direction: column;
+    }
+`
 
 const Footer = () => (
-    <footer>
-        <p>Maxim R.</p>
+    <StyledFooter>
+        <h4>Maxim R.</h4>
         <small>Copyright &#169; 2020 Maxim Reksha. All Rights Reserved. </small>
-    </footer>
+    </StyledFooter>
 );
 
 export default Footer;

@@ -1,6 +1,6 @@
 import React from 'react';
 import GoogleMapReact from 'google-map-react';
-const AnyReactComponent = ({ text }) => <div>{text}</div>;
+const AnyReactComponent = () => <div></div>;
  
 class Googlemap extends React.Component {
   static defaultProps = {
@@ -25,7 +25,6 @@ class Googlemap extends React.Component {
               <AnyReactComponent
                 lat={32.09363874944252}
                 lng={34.79476240002239}
-                text=""
               />
             </GoogleMapReact>
             </div>

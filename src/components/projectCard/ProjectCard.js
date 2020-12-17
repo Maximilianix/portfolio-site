@@ -1,14 +1,22 @@
 import React from 'react';
-import './_project-card.scss';
+import styled from 'styled-components';
+
+const StyledCard = styled.div`
+  border-radius: 8px;
+    box-shadow: $box-shadow;
+    padding: 1rem;
+    display: grid;
+    row-gap: 1rem;
+`
 
 const ProjectCard = ({projectName,projectDescription,projectImage}) => (
-    <div className="project-card">
+    <StyledCard className="project-card">
         <h3>{projectName}</h3>
         <div className="project-image">
-            <img src={projectImage} alt={projectName} width="100%" height="100%"/>
+            <img src={projectImage} alt={projectName} width="30%"/>
         </div>
         <p>{projectDescription }</p>
-    </div>
+    </StyledCard>
 );
 
 export default ProjectCard;

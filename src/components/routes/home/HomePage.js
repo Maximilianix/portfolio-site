@@ -1,7 +1,14 @@
 import React, {lazy} from 'react';
-import './_homepage.scss';
+import styled from 'styled-components';
 
 const SkillBoxes = lazy(() => import('../../skillBox/SkillBoxes'));
+
+const StyledHome = styled.div`
+p{
+    margin:1rem 0;
+}
+`
+
 
 const HomePage = () => {
 
@@ -11,7 +18,7 @@ const HomePage = () => {
     }
 
     return(
-        <div className="home">
+        <StyledHome className="home">
             <h2>About Me</h2>
             <p>
                 Hi, i'm Maxim.
@@ -35,7 +42,7 @@ const HomePage = () => {
             </p>
             <h2>My Skills</h2>
             <SkillBoxes />
-        </div>
+        </StyledHome>
     )
 };
 

@@ -1,6 +1,16 @@
 import React from 'react';
 import ProjectCard from '../../projectCard/ProjectCard';
-import { php,javascript,nodejs,html } from '../../../assets/images';
+import { php, javascript, nodejs, html } from '../../../assets/images';
+import styled from 'styled-components';
+
+const StyledPortfolio = styled.div`
+.projects-wrap {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 1rem;
+  row-gap: 3rem;
+}
+`
 
 const Portfolio = () => {
 
@@ -28,7 +38,7 @@ const Portfolio = () => {
     ];
 
     return(
-        <div className="portfolio">
+        <StyledPortfolio className="portfolio">
             <h2>Projects</h2>
             <div className="projects-wrap">
             {
@@ -42,7 +52,7 @@ const Portfolio = () => {
                 ))
             }
             </div>
-        </div>
+        </StyledPortfolio>
     )
 };
 
