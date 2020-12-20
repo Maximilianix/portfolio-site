@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/portfolio-site/static/css/main.e0323f81.chunk.css",
-    "main.js": "/portfolio-site/static/js/main.73369457.chunk.js",
-    "main.js.map": "/portfolio-site/static/js/main.73369457.chunk.js.map",
+    "main.js": "/portfolio-site/static/js/main.adc2332b.chunk.js",
+    "main.js.map": "/portfolio-site/static/js/main.adc2332b.chunk.js.map",
     "runtime-main.js": "/portfolio-site/static/js/runtime-main.e0879b45.js",
     "runtime-main.js.map": "/portfolio-site/static/js/runtime-main.e0879b45.js.map",
     "static/js/2.aa5cc8e8.chunk.js": "/portfolio-site/static/js/2.aa5cc8e8.chunk.js",
@@ -30,7 +30,7 @@
     "index.html": "/portfolio-site/index.html",
     "static/css/main.e0323f81.chunk.css.map": "/portfolio-site/static/css/main.e0323f81.chunk.css.map",
     "static/js/2.aa5cc8e8.chunk.js.LICENSE.txt": "/portfolio-site/static/js/2.aa5cc8e8.chunk.js.LICENSE.txt",
-    "static/media/cv.64bdbfd9.pdf": "/portfolio-site/static/media/cv.64bdbfd9.pdf",
+    "static/media/cv.5703c2ca.pdf": "/portfolio-site/static/media/cv.5703c2ca.pdf",
     "static/media/half-moon.svg": "/portfolio-site/static/media/half-moon.4946e6c2.svg",
     "static/media/profile.5bbda6bd.webp": "/portfolio-site/static/media/profile.5bbda6bd.webp",
     "static/media/sun.svg": "/portfolio-site/static/media/sun.b62612de.svg"
@@ -39,6 +39,6 @@
     "static/js/runtime-main.e0879b45.js",
     "static/js/2.aa5cc8e8.chunk.js",
     "static/css/main.e0323f81.chunk.css",
-    "static/js/main.73369457.chunk.js"
+    "static/js/main.adc2332b.chunk.js"
   ]
 }
