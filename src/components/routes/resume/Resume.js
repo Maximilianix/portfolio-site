@@ -12,9 +12,6 @@ const StyledResume = styled.div`
         color: ${({ theme }) => theme.black};
         font-size: 1.5rem;
       }
-      @media (max-width: 767px) {
-        
-      }
     }
     li {
       flex-direction: column;

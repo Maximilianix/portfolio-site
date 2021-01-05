@@ -67,6 +67,9 @@ button:disabled {
       border-radius: 8px;
       box-shadow: ${({ theme }) => theme.boxShadow};
       padding: 2rem;
+       @media (max-width: 767px) {
+        padding: 1rem;
+    }
     }
   }
   h2 {
